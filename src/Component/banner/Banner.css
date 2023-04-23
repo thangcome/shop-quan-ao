@@ -1,0 +1,12 @@
+.banner-container {
+    margin-top: 60px;
+    background: url('/public/assets/img/banner/banner-1.jpg') top center / cover no-repeat;
+    padding-top: 25%;
+}
+
+.banner-container .text-content {
+    text-align: center;
+    transform: translateY(-600%);
+    font-style: oblique;
+    color: rgb(0, 174, 255);
+}

@@ -1,0 +1,75 @@
+.header {
+    height: 60px;
+    /* background-color: rgb(12, 129, 246); */
+    /* background-color: rgb(37, 150, 190); */
+    /* background-color: rgb(35, 150, 170); */
+    background-image: linear-gradient(0deg, rgb(37, 150, 190), blue);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+.logoshop {
+    display: flex;
+    padding: 0px 24px;
+    font-style: italic;
+    position: absolute;
+    line-height: 60px;
+}
+
+.fab.fa-shopify {
+    font-size: 30px;
+    color: #fff;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.logoshop>h2 {
+    color: #fff;
+    display: inline-block;
+}
+
+
+.subnav,
+.navigation {
+    list-style-type: none;
+    float: right;
+}
+
+
+.navigation>li {
+    display: inline-block;
+    position: relative;
+}
+
+.navigation>li>a>i {
+    margin-left: 5px;
+}
+
+.navigation>li:hover {
+    background-color: blue;
+}
+
+.navigation .subnav {
+    display: none;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    background-color: rgb(12, 129, 246);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.navigation>li:hover .subnav {
+    display: block;
+}
+
+.navigation li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 60px;
+    padding: 0px 24px;
+}

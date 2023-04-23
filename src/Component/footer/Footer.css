@@ -1,0 +1,32 @@
+.footer {
+    padding: 64px 0px;
+    text-align: center;
+}
+
+.footer .map-section img {
+    width: 100%;
+}
+
+.footer .socials-list {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.footer .socials-list a {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+}
+
+.footer .copyright a:hover,
+.footer .socials-list a:hover {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.footer .copyright {
+    margin-top: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.footer .copyright a {
+    color: rgba(0, 0, 0, 0.6);
+}
